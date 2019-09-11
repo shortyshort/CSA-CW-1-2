@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Average
+{
+    public static void main (String[] args)
+    {
+        Scanner keyboard = new Scanner (System.in);
+        
+        double num1, num2, num3;
+        double sum;
+        double average;
+        
+        System.out.println ("Enter integer: " );
+        num1 = keyboard.nextInt();
+        
+        System.out.println ("Enter another integer: ");
+        num2 = keyboard.nextInt();
+        
+        System.out.println ("Enter another integer: " );
+        num3 = keyboard.nextInt();
+        
+        sum = num1 + num2 + num3 ;
+        average = (sum / 3);
+        
+        System.out.println ("The average of the 3 numbers is: " + average);
+    }//end main method
+}//end class
+//Isabela Francisco
